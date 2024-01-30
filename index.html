@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>'Music Library: Music for everyone'</title>
+    <link rel="icon" type="image/png" href="png-music-icon-0.jpg" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left bg-black">
+        <div class="home bg-grey">
+          <div class="close">
+            <img style="filter: invert(1)" src="img/close.svg" alt="" />
+          </div>
+          <div class="logo"><img src="m2.png" alt="" /></div>
+          <ul>
+            <li><img src="img/home.svg" alt="Home" />Home</li>
+            <li><img src="img/search.svg" alt="Search" />Search</li>
+          </ul>
+        </div>
+        <div class="lib bg-grey">
+          <div class="library bg-grey">
+            <div class="library2">
+              <img src="img/lib.svg" alt="library" />
+              <span>Your library</span>
+
+              <div class="plus">
+                <img src="img/plus.svg" alt="Plus" />
+              </div>
+            </div>
+
+            <div class="songlist">
+              <ul></ul>
+            </div>
+
+            <div class="footer">
+              <span
+                class="Text__TextElement-sc-if376j-0 gYdBJW encore-text-marginal"
+                data-encore-id="text"
+                >Cookies</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right bg-grey">
+        <div class="header">
+          <div class="nav">
+            <div class="hamburgerContainer">
+              <img
+                class="hamburger"
+                style="filter: invert(1)"
+                src="img/hamburger.svg"
+                alt=""
+              />
+
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18"
+                  stroke="#ffff"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <img src="img/right.svg" alt="" />
+            </div>
+          </div>
+          <div class="buttons">
+            <button class="signupbtn">Sing up</button>
+            <button class="loginbtn">Log in</button>
+          </div>
+        </div>
+        <div class="playlist">
+          <h1>Song Playlists</h1>
+          <div class="cardContainer"></div>
+          <div class="playbar">
+            <div class="seekbar">
+              <div class="circle"></div>
+            </div>
+            <div class="abovebar">
+              <div class="songinfo"></div>
+              <div class="songbtn">
+                <img id="previous" width="30" src="img/prevsong.svg" alt="" />
+                <img id="play" width="30" src="img/play.svg" alt="" />
+                <img id="next" width="30" src="img/nextsong.svg" alt="" />
+              </div>
+              <div class="timevol">
+                <div class="songtime"></div>
+                <div class="volume">
+                  <img width="25px" src="img/volume.svg" alt="" />
+                  <div class="range"><input type="range" name="volume" /></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
